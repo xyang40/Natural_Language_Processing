@@ -1,0 +1,16 @@
+#! /bin/bash
+
+data=$1
+
+# Fill in the blank line with the command or commands that will run your
+# program using the document information from '$data'. Print your results
+# to standard out. 
+#
+##############################################################################
+javac GSampler.java
+java GSampler $data
+##############################################################################
+#
+# Make sure the script works by running
+# ./topicmod data/news1000.txt
+#

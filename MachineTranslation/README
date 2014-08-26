@@ -1,0 +1,7 @@
+1. For the sake of speed, the decoders are now decoding sentences of length<=10; to see results of the complete set of the sentences, simply get rid of the condition
+(if(temp.length<=10) in all circumstances in the decode() method in both DumbDecoder.java and newnoise.java files).
+
+2. verydumb will generate the file: translation.txt;
+   noisychannel will generate the file: translation.noisychannel.txt
+
+3. When running the script fscore, please use these two file names.

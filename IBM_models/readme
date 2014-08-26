@@ -1,0 +1,17 @@
+Readme:
+
+0. The codes have been written in Java.
+
+1. Please use the following scripts to execute the programs:
+a. For unigram model:
+./unigram english-senate-0.txt english-senate-1.txt english-senate-2.txt good-bad.txt
+b. For bigram model:
+./bigram english-senate-0.txt english-senate-1.txt english-senate-2.txt good-bad.txt
+
+2. I preprocess every sentence in the following way:
+#START# SENTENCECONTENT #END#
+Therefore the start and the end of sentences are treated as different symbols.
+Also, the unknown symbol is denoted #UNBEKANNT#.
+
+
+
